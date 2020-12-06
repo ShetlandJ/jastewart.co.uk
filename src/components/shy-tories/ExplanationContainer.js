@@ -1,5 +1,6 @@
 import React from 'react';
-import Link from './Link';
+import Link from '../global/Link';
+import WordList from './WordList';
 
 function ExplanationContainer() {
   return (
@@ -26,18 +27,24 @@ function ExplanationContainer() {
 
         <h3>What do their biographies say?</h3>
 
-        <a href="https://postimg.cc/zHg9Cgwm" rel="noreferrer" target="_blank">
-          <img
-            src="https://i.postimg.cc/sx6sRPv2/image.png"
-            border="0"
-            alt="word word of the most common words in the MPs biography"
-            style={{
-              width: '100%'
-            }}
-          />
-        </a>
+        <img
+          src='https://i.postimg.cc/pXytF10G/image.png'
+          border='0'
+          alt="word cloud of the most common words in the MPs biography"
+          style={{
+            width: '100%'
+          }}
+        />
 
-        <h3>How it was done</h3>
+        <WordList />
+
+        <p>
+          The above lists have some common phrases and email quirks removed, but it's probably not surprising to see the most common words and phrases being 'mp', 'mp for' and 'of parliament'. One that susprised me was "shadow" in 11th place with 86 mentiond - but this could include "former shadow" of which there will have been a significant number after the recent Labour leadership turnover.
+        </p>
+
+        <p>I think that the word 'mp' appears multiple times because the online counter website I used may have included mentions from email addresses.</p>
+
+        <h3>How the information was gathered</h3>
         <p>
           I wrote small program that I ran on my computer which silently opened Google Chrome, visited the MP's twitter page and saved their biography into their CSV file. When it stored their biography into the CSV file, I also inserts their name, handle and TRUE/FALSE which was the product of checking if their biography contained certain phrases.
           </p>
@@ -55,7 +62,7 @@ function ExplanationContainer() {
           </p>
 
         <p>
-          If you're interested in the code used to generate this, it's <Link text="available here" address="https://github.com/ShetlandJ/mp_twitter_scrape" />
+          If you're interested in the code used to generate this, it's <Link text="available here" address="https://github.com/ShetlandJ/mp_twitter_scrape" />.
         </p>
       </div>
     </div>

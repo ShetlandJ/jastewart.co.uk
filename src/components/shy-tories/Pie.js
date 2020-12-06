@@ -10,7 +10,7 @@ export default function renderPie({ data, partyName }) {
 
     const legend = (
         data.map((d, index) => (
-            <div class="flex align-center pad-top">
+            <div className="flex align-center pad-top" key={index}>
                 <div
                     className="legend"
                     style={{

@@ -1,16 +1,26 @@
 import './App.css';
-import PieContainer from './components/PieContainer';
-import IntroContainer from './components/IntroContainer';
-import ExplanationContainer from './components/ExplanationContainer';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+import Home from './pages/Home';
+import ShyTory from './pages/ShyTory';
 
 function App() {
   return (
-    <div>
-      <IntroContainer />
-      <PieContainer />
-      <ExplanationContainer />
-
-    </div>
+    <Router>
+       <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/shy-tories">
+            <ShyTory />
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 

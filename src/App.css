@@ -96,3 +96,11 @@ body {
 .mb-0 {
   margin-bottom: 0;
 }
+
+.grid {
+  display: grid;
+}
+
+.word-list {
+  grid-template-columns: 75% 25%
+}

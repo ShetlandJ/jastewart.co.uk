@@ -1,4 +1,4 @@
-import Link from './Link';
+import Link from '../global/Link';
 
 function IntroContainer() {
   return (
@@ -14,7 +14,7 @@ function IntroContainer() {
         </p>
 
         <p>
-            As it happens, the answer was yes.
+            As it happens, the answer was yes. The following data was gathered at the of November 2020.
         </p>
       </div>
     </div>
