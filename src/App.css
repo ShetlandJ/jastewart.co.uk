@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.pie {
+  max-width: 240px;
+  margin: 20px;
+}
+
+.pie-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.pad-top {
+  padding-top: 10px;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+  overflow: hidden;
+  max-width: 700px;
+  background: white;
+  /* box-shadow: 5px 5px 15px #f6eeee; */
+  border-radius: 10px;
+}
+
+.small-squeeze {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
