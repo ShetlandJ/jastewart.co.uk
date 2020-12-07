@@ -80,13 +80,17 @@ body {
   overflow: hidden;
   max-width: 700px;
   background: white;
-  /* box-shadow: 5px 5px 15px #f6eeee; */
   border-radius: 10px;
 }
 
 .small-squeeze {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.big-squeeze {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .mt-0 {

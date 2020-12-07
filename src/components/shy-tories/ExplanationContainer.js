@@ -16,14 +16,27 @@ function ExplanationContainer() {
         </p>
 
         <p>
-          Recently, Conservative MPs have made light of the <Link text="abuse" address="https://www.bbc.co.uk/news/election-2019-50687425" /> that they have received from Twitter users. The most recent media furour surrounding this followed the decision by the Conservative government to <Link text="vote against" address="https://www.thestar.co.uk/news/politics/council/south-yorkshire-mp-sent-abuse-twitter-over-free-school-meals-vote-3019189" /> extending free school meals. A cynic could easily suggest that, in taking a leaf our of Trump's playbook, the MPs managed to move the story on from voting against free school meals, to Twitter abuse.
+          Recently, Conservative MPs have made light of the <Link text="abuse" address="https://www.bbc.co.uk/news/election-2019-50687425" /> that they have received from Twitter users. The most recent media furour surrounding this followed the decision by the Conservative government to <Link text="vote against" address="https://www.thestar.co.uk/news/politics/council/south-yorkshire-mp-sent-abuse-twitter-over-free-school-meals-vote-3019189" /> extending free school meals. A cynic could easily suggest that, in taking a leaf our of Trump's playbook, the MPs managed to move the story on from voting against free school meals, to Twitter abuse. It was a politically shrewd move, as the headlines quickly shifted.
+        </p>
+
+        <h3>MP abuse</h3>
+        <p>
+          Working for a Lib Dem MP (who was in the Government) during the Coalition meant you were never too far from abuse. In the office I worked in (shared with four other MPs' staff), we used to keep some of the best abuse we received. It wasn't acceptable then, and it's not acceptable now, but MPs receiving abuse is not new.
         </p>
 
         <p>
-          Working for a Lib Dem MP (who was in the Government) during the Coalition meant you were never too far from abuse. In the office I worked in (shared with four other MPs' staff), we used to keep some of the best abuse we received. It wasn't acceptable then, and it's not acceptable now, but MPs receiving abuse is not new. It will happen after Twitter is gone too. Twitter just means that instead of that abuse being shouted down the phone as a lowly parliamentary researcher, aka me 6 years ago, it's public for everyone to see.
+          Particularly as the MP I worked for was not in favour of Scottish Independence and that vote took place while I was in the job, I would end up hearing from people all around Scotland. A lot of the abuse never made it to the MP, especially if the originator was not someone that the MP represented (vast majority).
         </p>
 
-        <p>Given the signifcant left wing presense on Twitter, and the <Link text="increasingly polarised" address="https://www.kcl.ac.uk/policy-institute/assets/divided-britain.pdf" />, I do believe it is a reasonable assumption that Conservative MPs hide their political party from the biography as some kind of shield from immediate criticism. I was, however, surprised to see that one third of SNP MPs do not mention their party in any way in their biographies, given their popularity in Scotland.</p>
+        <p>
+          Though I agree with the general sentiment that political civility is <Link text="designed to reinforce oppressive systems" address="https://twitter.com/chrisinsilico/status/1333068977447243777" />, the abuse that we received (directed at the MPs we worked for) only really impacted our own mental health. We didn't take abusive content to the MP, because they were already too busy helping normal people. Although I haven't personally done this, I'm sure it's fun to tell a policitian who you think is a bit of an arse to "fuck off", it can just play into their hands and further cement divisions.
+        </p>
+
+        <p>
+            All this is to say that the abuse of MPs will still happen after Twitter is gone. Twitter just means that instead of that abuse being shouted down the phone as a lowly parliamentary researcher, aka me 6 years ago, it's public for everyone to see.
+        </p>
+
+        <p>Given the signifcant left wing presence on Twitter, and the <Link text="increasingly polarised" address="https://www.kcl.ac.uk/policy-institute/assets/divided-britain.pdf" />, I do believe it is a reasonable assumption that Conservative MPs hide their political party from the biography as some kind of shield from immediate criticism. I was, however, surprised to see that one third of SNP MPs do not mention their party in any way in their biographies, given their popularity in Scotland.</p>
 
         <h3>What do their biographies say?</h3>
 

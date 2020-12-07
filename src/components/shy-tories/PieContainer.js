@@ -40,7 +40,7 @@ const generatePieData = (partyName) => {
 
 function App() {
   return (
-    <div className="pie-container">
+    <div className="pie-container big-squeeze">
       <div
         className="pie"
       >
