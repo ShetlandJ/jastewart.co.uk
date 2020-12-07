@@ -31,11 +31,11 @@ function ExplanationContainer() {
 
       <div className="container">
         <p>
-          Wait, Labour MPs and Labour MSP have the exact same percentage? I honestly had to double check that I hadn't just copied and pasted wrongly - but no - in a bizarre coincidence, it's a match (raw rigs: 161 of 193 MPs, 20 of 24 MSPs).
+          Wait, Labour MPs and Labour MSP have the exact same percentage? I honestly had to double check that I hadn't just copied and pasted wrongly - but no - in a bizarre coincidence, it's a match (raw figs: 161 of 193 MPs, 20 of 24 MSPs).
         </p>
 
         <p>
-          We're dealing with smaller sample sizes here, so the data needs to be afforded some wiggle room, but Labour and SNP percentages are, overall, extremely close. In Scotland, the Conservative MSPs are more likely than their Westminster colleagues.
+          We're dealing with smaller sample sizes here, so the data needs to be afforded some wiggle room, but Labour and SNP percentages are, overall, extremely close. In Scotland, the Conservative MSPs are more likely to mention their political party than their Westminster colleagues.
         </p>
       </div>
 

@@ -5,6 +5,11 @@ function IntroContainer() {
     <div>
       <h1 className="flex-center small-squeeze mb-0">Do MPs mention their party in their Twitter bio?</h1>
       <div className="container">
+        <div class="flex space-between">
+          <small>Page last updated: 7 Dec 2020</small>
+          <small><Link text="@JAStewart" address="https://www.twitter.com/JAStewart" /></small>
+        </div>
+
         <p>
             I'm a <Link text="developer" address="https://github.com/ShetlandJ" />, <Link text="charity founder" address="https://www.wrestlekind.org"/> and <Link text="cafe owner" address="https://www.gilmartinsbakery.com" /> who changed career from politics to software back in 2018. I previously worked for a Cabinet Minister during the Conservative/Lib Dem coalition and I've always wanted to marry up my new technical abilities with my political interest. That has previously manifested in things like this mischevious <Link text="chrome extension" address="https://chrome.google.com/webstore/detail/liam-foxinator/neighkpnbclgljfgdmijhabhgifdhabn?hl=en" />.
         </p>
