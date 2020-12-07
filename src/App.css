@@ -108,3 +108,17 @@ body {
 .word-list {
   grid-template-columns: 75% 25%
 }
+
+@media only screen and (max-width: 600px) {
+    .radio-button-container {
+      flex-direction: column;
+    }
+
+    .word-type-selector {
+      padding-bottom: 3px;
+    }
+
+    .recurring-words-title {
+      padding-bottom: 3px;
+    }
+}

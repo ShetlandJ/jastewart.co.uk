@@ -49,24 +49,39 @@ function WordList() {
     const [listType, setListType] = useState('word');
 
     const optionSelector = (
-        <div className="flex-center">
-            <label>
-                <input type="radio" checked={listType === 'word'} value="word" onChange={() => setListType('word')} /> Top words
+        <div className="flex-center radio-button-container">
+            <label className="word-type-selector">
+                <input
+                    type="radio"
+                    checked={listType === 'word'}
+                    value="word"
+                    onChange={() => setListType('word')}
+                /> Top words
             </label>
 
-            <label>
-                <input type="radio" checked={listType === 'bigrams'} value="bigrams" onChange={() => setListType('bigrams')} /> Top bigrams
+            <label className="word-type-selector">
+                <input
+                    type="radio"
+                    checked={listType === 'bigrams'}
+                    value="bigrams"
+                    onChange={() => setListType('bigrams')}
+                /> Top bigrams
             </label>
 
-            <label>
-                <input type="radio" checked={listType === 'trigrams'} value="trigrams" onChange={() => setListType('trigrams')} /> Top trigrams
+            <label className="word-type-selector">
+                <input
+                    type="radio"
+                    checked={listType === 'trigrams'}
+                    value="trigrams"
+                    onChange={() => setListType('trigrams')}
+                /> Top trigrams
             </label>
         </div>
     )
 
     return (
         <div>
-            <p className="mb-0">
+            <p className="mb-0 recurring-words-title">
                 Recurring words:
             </p>
             {optionSelector}
