@@ -45,7 +45,7 @@ function App() {
         className="pie"
       >
         <Pie
-          partyName="Conservatives"
+          partyName="Conservatives (316)"
           data={generatePieData('conservatives')}
         />
       </div>
@@ -54,7 +54,7 @@ function App() {
         className="pie"
       >
         <Pie
-          partyName="Labour"
+          partyName="Labour (193)"
           data={generatePieData('labour')}
         />
       </div>
@@ -63,7 +63,7 @@ function App() {
         className="pie"
       >
         <Pie
-          partyName="Scottish National Party"
+          partyName="Scottish National Party (47)"
           data={generatePieData('snp')}
         />
       </div>

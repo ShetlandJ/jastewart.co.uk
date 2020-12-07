@@ -14,7 +14,7 @@ function IntroContainer() {
         </p>
 
         <p>
-            As it happens, the answer was yes. The following data was gathered at the end of November 2020.
+            As it happens, the answer was yes. The following data was gathered at the end of November 2020. The total count of MPs in that party using Twitter, therefore the sample size, is in brackets next to the party name.
         </p>
       </div>
     </div>

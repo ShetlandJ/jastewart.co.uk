@@ -21,6 +21,10 @@ function ExplanationContainer() {
         </p>
 
         <h3>What about Scotland?</h3>
+
+        <p class="mb-0">
+          Being Scottish, I was naturally curious to see if this pattern held for Scotland. It does! Well, sorta. With a coincidental surprise thrown in.
+        </p>
       </div>
 
       <MSPPieContainer />
@@ -36,7 +40,7 @@ function ExplanationContainer() {
       </div>
 
       <div className="container">
-        <h3>MP abuse</h3>
+        <h3 class="mt-0">MP abuse</h3>
         <p>
           Working for a Lib Dem MP (who was in the Government) during the Coalition meant you were never too far from abuse. In the office I worked in (shared with four other MPs' staff), we used to keep some of the best abuse we received. It wasn't acceptable then, and it's not acceptable now, but MPs receiving abuse is not new.
         </p>
@@ -54,6 +58,8 @@ function ExplanationContainer() {
         </p>
 
         <p>Given the signifcant left wing presence on Twitter, and the <Link text="increasingly polarised" address="https://www.kcl.ac.uk/policy-institute/assets/divided-britain.pdf" />, I do believe it is a reasonable assumption that Conservative MPs hide their political party from the biography as some kind of shield from immediate criticism. I was, however, surprised to see that one third of SNP MP/MSPs do not mention their party in any way in their biographies, given their popularity in Scotland.</p>
+
+        <h3>What do their biographies say?</h3>
 
         <img
           src='https://i.postimg.cc/pXytF10G/image.png'
