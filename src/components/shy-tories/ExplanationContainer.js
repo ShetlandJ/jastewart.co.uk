@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from '../global/Link';
 import WordList from './WordList';
+import MSPPieContainer from './MSPPieContainer';
 
 function ExplanationContainer() {
   return (
@@ -19,6 +20,22 @@ function ExplanationContainer() {
           Recently, Conservative MPs have made light of the <Link text="abuse" address="https://www.bbc.co.uk/news/election-2019-50687425" /> that they have received from Twitter users. The most recent media furour surrounding this followed the decision by the Conservative government to <Link text="vote against" address="https://www.thestar.co.uk/news/politics/council/south-yorkshire-mp-sent-abuse-twitter-over-free-school-meals-vote-3019189" /> extending free school meals. A cynic could easily suggest that, in taking a leaf our of Trump's playbook, the MPs managed to move the story on from voting against free school meals, to Twitter abuse. It was a politically shrewd move, as the headlines quickly shifted.
         </p>
 
+        <h3>What about Scotland?</h3>
+      </div>
+
+      <MSPPieContainer />
+
+      <div className="container">
+        <p>
+          Wait, Labour MPs and Labour MSP have the exact same percentage? I honestly had to double check that I hadn't just copied and pasted wrongly - but no - in a bizarre coincidence, it's a match (raw rigs: 161 of 193 MPs, 20 of 24 MSPs).
+        </p>
+
+        <p>
+          We're dealing with smaller sample sizes here, so the data needs to be afforded some wiggle room, but Labour and SNP percentages are, overall, extremely close. In Scotland, the Conservative MSPs are more likely than their Westminster colleagues.
+        </p>
+      </div>
+
+      <div className="container">
         <h3>MP abuse</h3>
         <p>
           Working for a Lib Dem MP (who was in the Government) during the Coalition meant you were never too far from abuse. In the office I worked in (shared with four other MPs' staff), we used to keep some of the best abuse we received. It wasn't acceptable then, and it's not acceptable now, but MPs receiving abuse is not new.
@@ -33,12 +50,10 @@ function ExplanationContainer() {
         </p>
 
         <p>
-            All this is to say that the abuse of MPs will still happen after Twitter is gone. Twitter just means that instead of that abuse being shouted down the phone as a lowly parliamentary researcher, aka me 6 years ago, it's public for everyone to see.
+          All this is to say that the abuse of MPs will still happen after Twitter is gone. Twitter just means that instead of that abuse being shouted down the phone as a lowly parliamentary researcher, aka me 6 years ago, it's public for everyone to see.
         </p>
 
-        <p>Given the signifcant left wing presence on Twitter, and the <Link text="increasingly polarised" address="https://www.kcl.ac.uk/policy-institute/assets/divided-britain.pdf" />, I do believe it is a reasonable assumption that Conservative MPs hide their political party from the biography as some kind of shield from immediate criticism. I was, however, surprised to see that one third of SNP MPs do not mention their party in any way in their biographies, given their popularity in Scotland.</p>
-
-        <h3>What do their biographies say?</h3>
+        <p>Given the signifcant left wing presence on Twitter, and the <Link text="increasingly polarised" address="https://www.kcl.ac.uk/policy-institute/assets/divided-britain.pdf" />, I do believe it is a reasonable assumption that Conservative MPs hide their political party from the biography as some kind of shield from immediate criticism. I was, however, surprised to see that one third of SNP MP/MSPs do not mention their party in any way in their biographies, given their popularity in Scotland.</p>
 
         <img
           src='https://i.postimg.cc/pXytF10G/image.png'

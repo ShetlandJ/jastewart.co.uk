@@ -24,14 +24,14 @@ export default function renderPie({ data, partyName }) {
                         paddingLeft: 10
                     }}
                 >
-                    {index === 0 ? 'Mentions party' : 'Does not mention party'}</span>
+                    {index === 0 ? 'Mentions party' : 'Does not'}</span>
             </div>
         ))
     )
 
     return (
         <div>
-            <h2 className="flex-center">{partyName}</h2>
+            <h3 className="flex-center">{partyName}</h3>
             <PieChart
                 data={data}
                 label={({ dataEntry }) => `${dataEntry.value}%`}

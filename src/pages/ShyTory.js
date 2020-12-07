@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PieContainer from '../components/shy-tories/PieContainer';
+import MPPieContainer from '../components/shy-tories/MPPieContainer';
 import IntroContainer from '../components/shy-tories/IntroContainer';
 import ExplanationContainer from '../components/shy-tories/ExplanationContainer';
 
@@ -8,7 +8,7 @@ function ShyTory() {
     return (
         <div>
             <IntroContainer />
-            <PieContainer />
+            <MPPieContainer />
             <ExplanationContainer />
         </div>
     )
