@@ -122,7 +122,8 @@ body {
       padding-bottom: 3px;
     }
 
-    .recurring-words-title {
-      padding-bottom: 3px;
-    }
+  }
+
+.recurring-words-title {
+  padding-bottom: 5px;
 }

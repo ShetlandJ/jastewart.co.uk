@@ -82,7 +82,7 @@ function WordList() {
     return (
         <div>
             <p className="mb-0 recurring-words-title">
-                Recurring words:
+                Recurring words, excluding common words:
             </p>
             {optionSelector}
 
