@@ -54,7 +54,7 @@ function ExplanationContainer() {
         </p>
 
         <p>
-          Though I agree with the general sentiment that political civility is <Link text="designed to reinforce oppressive systems" address="https://twitter.com/chrisinsilico/status/1333068977447243777" />, the abuse that we received (directed at the MPs we worked for) only really impacted our own mental health. We didn't take abusive content to the MP, because they were already too busy helping normal people. Although I haven't personally done this, I'm sure it's fun to write a mean tweet to an MP on Twitter, it can just play into their hands and further cement divisions.
+          Though I agree with the general sentiment that political civility is <Link text="designed to reinforce oppressive systems" address="https://twitter.com/chrisinsilico/status/1333068977447243777" />, the abuse that we received (directed at the MPs we worked for) only really impacted our own mental health. We didn't take abusive content to the MP, because they were already too busy getting on with the day job. Although I haven't personally done this, I'm sure it's fun to write a mean tweet to an MP on Twitter, it can just play into their hands and further cement divisions.
         </p>
 
         <p>
