@@ -15,7 +15,7 @@ function IntroContainer() {
         </p>
 
         <p>
-          When browsing UK politics subreddits, such as <Link text="/r/unitedkingdom" address="https://www.reddit.com/r/unitedkingdom/" /> &amp; <Link text="/r/ukpolitics" address="https://www.reddit.com/r/ukpolitics/" />, I noticed that when a tweet was shared and was clearly from a Conservative MP, the MP's Twitter bio would often not include their party. This let me to the question: are Conservative MPs less likely to include the name of their political party compared to their primary political rivals, the Labour party?
+          When browsing UK politics subreddits, such as <Link text="/r/unitedkingdom" address="https://www.reddit.com/r/unitedkingdom/" /> &amp; <Link text="/r/ukpolitics" address="https://www.reddit.com/r/ukpolitics/" />, I noticed that when a tweet was shared and was clearly from a Conservative MP, the MP's Twitter bio would often not include their party. This led me to the question: are Conservative MPs less likely to include the name of their political party compared to their primary political rivals, the Labour party?
         </p>
 
         <p>
